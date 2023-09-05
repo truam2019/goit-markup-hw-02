@@ -1,0 +1,38 @@
+:root {
+    --color-blue:#2196F3;
+    --color-gray:#757575;
+    --color-fondo:#2F303A;
+    --color-body:#212121;
+    --color-tituloprinci: #FFFFFF;
+
+}
+
+body {
+    color:var(--color-body);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color:aqua;
+}
+
+.logo {
+    color:var(--color-blue);
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    color:black;
+}
+
+.info{
+    color:var(--color-gray);
+
+}
+
+.fondo{
+    background-color:var(--color-fondo);
+}
+
